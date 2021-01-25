@@ -1,0 +1,16 @@
+PROCEDURE insert_sorting(tab of arrays:integer)
+VAR
+    i,j,c:integer
+BEGIN
+    FOR i FROM 1 TO arr.length-1 STEP 1  DO
+        c = T[i]
+        j = i-1
+        WHILE ((c < T[j]) AND (j >= 0)) DO
+            T[J+1] = T[J]
+            j--
+            
+
+        END_WHILE
+        T[j+1] = c
+    END_FOR
+END
